@@ -1,18 +1,25 @@
 body{
-    background-color: rgb(255, 0, 0);
-    font-family: fantasy;
+    background-color: rgb(225, 0, 0);
 }
 
 .container{
-    display:flrx;
+    display:flex;
 }
 
 .cartao{
     margin:1rem 1rem;
-    background-color: rgb(255, 0, 255);
+    background-color: rgb(43, 23, 223);
     height: 20rem;
+    flex-grow:1; 
+    flex-basis:calc(33% - 6rem);
 }
-.cartao__conteudo h3 {
+
+.cartao_conteudo{
+    text-align: center;
+    height:100%;
+}
+
+.cartao_conteudo h3 {
     background-color: tomato;
     text-align: left;
     padding: 0.5rem;
@@ -22,7 +29,7 @@ body{
     font-size: 1vw;
 }
 
-.cartao__conteudo p {
+.cartao_conteudo p {
     margin-top: 1rem;
     padding: 2rem;
 }
