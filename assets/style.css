@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(225, 0, 0);
+    background-color: rgb(8, 255, 255);
 }
 
 .container{
@@ -17,6 +17,8 @@ body{
 .cartao_conteudo{
     text-align: center;
     height:100%;
+    transform-style:preserve-3d;
+    transition:trasnsform 300ms ease-in-out;
 }
 
 .cartao_conteudo h3 {
@@ -47,5 +49,20 @@ footer {
 footer p {
     text-align: center;
     font-size: 0.6rem;
-    margin-top: 0.5rem;
+    margin-top: 0.5rem;%
+
 }
+
+/*Rotacionar o cartao quando o mouse passa em cima*/
+
+.cartao:hover .cartao conteudo{
+transform:rotateY(180deg);
+}
+
+    .pregunta, .resposta{
+    backface-visibility:hidden;
+
+    positi: absolute
+    height:100%;
+    width:100%;
+    }
