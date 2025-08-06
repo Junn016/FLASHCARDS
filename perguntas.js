@@ -7,7 +7,7 @@ criacartao(
 criacartao(
     'programação',
     'o que é o tecnopolos?',
-    'é uma área geográfica onde se concentram atividades de pesquisa, desenvolvimento e inovação em alta tecnologia, geralmente envolvendo universidades eempresas.'
+    'é uma área geográfica onde se concentram atividades de pesquisa, desenvolvimento e inovação em alta tecnologia, geralmente envolvendo universidades e empresas.'
 )
 criacartao(
     'programação',
