@@ -7,11 +7,9 @@
                     <h3>${categoria}</h3>
                     <div class="pergunta">
                         ${pergunta}
-                        O qui é javascript?
                     </div>
                     <div class="resposta">
                         ${resposta}
-                        É uma linguagem de programação versatils
                     </div>
                 </div>
                 `
